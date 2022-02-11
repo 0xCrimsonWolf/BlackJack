@@ -1,0 +1,5 @@
+- - - - - - - - - - - - - - - -
+
+Gestion de son changement de pseudo / mot de passe pour l'user (modification)
+
+Gestion des changements sur les users pour l'admin
