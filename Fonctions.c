@@ -301,7 +301,6 @@ void lancerPartie(float *jeu, char* Nom_Joueur, int Position_EnrStats_Joueur)   
             {
                 affich_Jeu(Croupier_tab, nb_croupier, Joueur_tab, nb_joueur, 0);
                 printf("\n\n\nVous avez perdu, vous avez bust...\n\n");
-                cond=1;
             }
             else
                 cond=456;
@@ -573,7 +572,7 @@ int condition_bj(float nb_croupier, float *croupier_tab, float nb_joueur, float 
                     1    =  Le joueur gagne
                     -1   =  Égalité
                     999  =  Joueur Busted
-                    -999 =  Croupeir Busted
+                    -999 =  Croupier Busted
     */
 
     if (joueur_tab[2] == 0 && nb_joueur == 21)
